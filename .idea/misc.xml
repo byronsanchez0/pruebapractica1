@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Public/Music/ciclo 2 moviles/desafio1DSM/ete/PruebaPractica1/app/src/main/res/drawable/bordesbotones.xml" value="0.3828125" />
+        <entry key="..\:/Users/Public/Music/ciclo 2 moviles/desafio1DSM/ete/PruebaPractica1/app/src/main/res/drawable/bordeslandscapemain.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Public/Music/ciclo 2 moviles/desafio1DSM/ete/PruebaPractica1/app/src/main/res/drawable/layoutdescrip.xml" value="0.3828125" />
+        <entry key="..\:/Users/Public/Music/ciclo 2 moviles/desafio1DSM/ete/PruebaPractica1/app/src/main/res/drawable/toolbar_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Public/Music/ciclo 2 moviles/desafio1DSM/ete/PruebaPractica1/app/src/main/res/layout-land/activity_main.xml" value="0.35495495495495494" />
+        <entry key="..\:/Users/Public/Music/ciclo 2 moviles/desafio1DSM/ete/PruebaPractica1/app/src/main/res/layout/activity_hotelform.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Public/Music/ciclo 2 moviles/desafio1DSM/ete/PruebaPractica1/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Public/Music/ciclo 2 moviles/desafio1DSM/ete/PruebaPractica1/app/src/main/res/layout/activity_sitioweb.xml" value="0.20520833333333333" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

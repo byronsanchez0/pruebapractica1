@@ -11,7 +11,7 @@ import com.example.pruebapractica1.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
-
+    val hotelsher = "https://turismo.org/hoteles-en-egipto/"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +23,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, hotelform:: class.java))
         }
 
+        addweb()
+
+
+
+
 
 
 
@@ -31,6 +36,24 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
+
+    private fun addweb(){
+        val intent = Intent (this, Sitioweb::class.java)
+        val key = "url"
+
+        binding.apply {
+            btnVersitioweb.setOnClickListener{
+                intent.putExtra(key, hotelsher)
+                startActivity(intent)
+
+            }
+
+        }
+
+    }
+
+
 
 
 

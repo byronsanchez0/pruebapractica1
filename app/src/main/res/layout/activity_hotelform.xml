@@ -3,28 +3,51 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/verdeclaro">
 
 
     <LinearLayout
 
-        android:layout_width="wrap_content"
+        android:layout_width="278dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="120dp"
         android:layout_gravity="center"
+        android:background="@drawable/bordesblancostodos"
+        android:paddingHorizontal="8dp"
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Informacion general"
             android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="28dp"
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nombre"
+            android:inputType="textPersonName"
             />
 
         <EditText
+            android:id="@+id/et_lastname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="apellido"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="45dp"
+
             />
+
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -32,18 +55,51 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bordesblancostodos"
+        android:padding="8dp"
+
         >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reservacion"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"
+
+
+            />
 
         <Spinner
             android:id="@+id/spinner_res"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="50dp"/>
 
 
 
     </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/layoutdescrip"
+        >
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginTop="30dp"
+            android:text="Confirmar"
+            android:background="@drawable/bordesbotones"
+
+            />
+
+    </LinearLayout>
 
 
     </LinearLayout>

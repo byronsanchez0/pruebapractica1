@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:background="@color/verdeclaro">
-    
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_hotel"
         android:layout_width="wrap_content"
@@ -15,6 +15,7 @@
         android:layout_margin="15dp"
         app:cardCornerRadius="120dp"
 
+
         >
 
         <ImageView
@@ -22,6 +23,7 @@
             android:layout_height="250dp"
             android:scaleType="centerCrop"
             android:src="@drawable/hotel"
+
 
             />
 
@@ -33,9 +35,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/layoutdescrip"
-
+        android:paddingTop="150dp"
+        android:background="@drawable/bordeslandscapemain"
 
         >
 
@@ -55,7 +56,7 @@
             android:layout_marginTop="30dp"
             android:text="RESERVAR"
 
-            android:background="@color/verdeoscuro"/>
+            android:background="@drawable/bordesbotones"/>
 
         <Button
             android:id="@+id/btn_versitioweb"
@@ -64,7 +65,7 @@
             android:layout_marginHorizontal="35dp"
             android:layout_marginTop="30dp"
             android:text="VER SITIO WEB"
-            android:background="@color/verdeoscuro"/>
+            android:background="@drawable/bordesbotones"/>
 
     </LinearLayout>
 
@@ -72,10 +73,10 @@
 
 
 
-    </LinearLayout>
-    
+</LinearLayout>
 
 
-    
-    
+
+
+
 
